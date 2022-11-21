@@ -13,52 +13,52 @@ router.use(express.json());
 //get all studentPapers
 router.get("/", async (req, res) => {
   const studentPaper = await StudentPaper.find({});
- 
+
   res.status(200).send(studentPaper);
 });
 
 //result
-router.post("/result", async (req, res) => { 
+router.post("/result", async (req, res) => {
+  const studentPapers = await StudentPaper.find({
+    "student._id": req.body.studentId,
+  });
+  const studentPaper = studentPapers[0];
+  const studentAnswers = await StudentAnswer.find({
+    "student._id": req.body.studentId,
+  });
+  let totalCorrect = 0;
+  let totalAttemptd = 0;
+  let obtainMarks = 0;
 
-const studentPapers = await StudentPaper.find({"student._id":req.body.studentId})  ;
-const studentPaper = studentPapers[0];
-const studentAnswers = await StudentAnswer.find({"student._id":req.body.studentId});
-let totalCorrect=0;
-let totalAttemptd=0;
-let obtainMarks=0;
+  totalAttemptd = studentAnswers.length;
 
-totalAttemptd= studentAnswers.length;
+  studentAnswers.map((studentAnswer) => {
+    if (studentAnswer.isCorrect) {
+      totalCorrect += 1;
+      obtainMarks += studentAnswer.paperQuestion.question.marks;
+    }
+  });
 
-studentAnswers.map((studentAnswer)=>{
-  if(studentAnswer.isCorrect){
-    totalCorrect += 1 ;
-    obtainMarks += studentAnswer.paperQuestion.question.marks;
+  studentPaper.totalCorrect = totalCorrect;
+  studentPaper.totalAttemptd = totalAttemptd;
+  studentPaper.obtainMarks = obtainMarks;
+
+  const session = await StudentPaper.startSession();
+
+  session.startTransaction();
+
+  try {
+    await studentPaper.save();
+    await StudentAnswer.deleteMany({ "student._id": req.body.studentId });
+
+    res.status(200).send(studentPaper);
+  } catch (err) {
+    session.abortTransaction();
+    throw err;
   }
-})
-
-studentPaper.totalCorrect=totalCorrect;
-studentPaper.totalAttemptd=totalAttemptd;
-studentPaper.obtainMarks=obtainMarks;
-
-const session = await StudentPaper.startSession();
-
-session.startTransaction();
-
-try {
-
-await studentPaper.save();
-await StudentAnswer.deleteMany({"student._id":req.body.studentId});
-
-res.status(200).send(studentPaper);
-} catch (err) {
-  session.abortTransaction();
-  throw err;
-}
-session.commitTransaction();
-session.endSession();
-
-})
-
+  session.commitTransaction();
+  session.endSession();
+});
 
 //by student
 router.post("/byStudent", async (req, res) => {
@@ -94,8 +94,6 @@ router.post("/", async (req, res) => {
   if (!student) return res.status(404).send("student not found");
   const paper = await Paper.findById(req.body.paper);
   if (!paper) return res.status(404).send("paper not found");
-
-  
 
   const studentPaper = new StudentPaper({
     student: student,

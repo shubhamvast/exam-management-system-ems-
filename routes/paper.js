@@ -4,6 +4,7 @@ router.use(express.json());
 
 const { Paper, validatePaper } = require("../Model/paperModel");
 const { PaperQuestion } = require("../Model/paperQuestionModel");
+const { Question } = require("../Model/questionModel");
 const { StudentPaper } = require("../Model/studentPaperModel");
 const { Subject } = require("../Model/subjectModel");
 
@@ -101,21 +102,26 @@ router.delete("/:id", async (req, res) => {
   try {
     const paper = await Paper.findById(req.params.id);
 
-    if(!paper) return res.status(404).send(paper);
+    if (!paper) return res.status(404).send(paper);
 
     await StudentPaper.deleteMany({ "paper._id": paper._id });
-    await PaperQuestion.deleteMany({"paper._id":paper._id});
+    await Question.updateMany(
+      { "topic.subject._id": paper.subject._id },
+      {
+        $set: {
+          isActive: false,
+        },
+      }
+    );
+    await PaperQuestion.deleteMany({ "paper._id": paper._id });
     await Paper.deleteOne({ _id: req.params.id });
     res.status(200).send(paper);
-   
   } catch (err) {
     session.abortTransaction();
     throw err;
   }
   session.commitTransaction();
   session.endSession();
-
-
 });
 
 module.exports = router;

@@ -66,9 +66,7 @@ const questionsSchema = new Schema({
     type: Boolean,
     default: false,
   },
-  paper: {
-    type:Object,
-  },
+ 
 });
 
 const Question = mongoose.model("question", questionsSchema);

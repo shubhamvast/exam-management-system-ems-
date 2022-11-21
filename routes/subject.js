@@ -48,6 +48,7 @@ router.put("/:id", async (req, res) => {
     return;
   }
 
+
   const session = await Subject.startSession();
 
   session.startTransaction();
@@ -64,6 +65,8 @@ router.put("/:id", async (req, res) => {
       }
     );
 
+
+
     await Topic.updateMany(
       { "subject._id": subject._id },
       { $set: { "subject.name": req.body.name } }
@@ -76,7 +79,7 @@ router.put("/:id", async (req, res) => {
 
     await PaperQuestion.updateMany(
       { "paper.subject._id": subject._id },
-      { $set: { "paper.subject._id": req.body.name } }
+      { $set: { "paper.subject.name": req.body.name } }
     );
 
     await Paper.updateMany(

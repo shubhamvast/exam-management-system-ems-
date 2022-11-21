@@ -1343,3 +1343,161 @@
 {"level":"error","message":"we have got an uncaught exception"}
 {"level":"error","message":"we have got an uncaught exception"}
 {"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"Something failed.. :printText is not a function"}
+{"level":"error","message":"Something failed.. :printText is not a function"}
+{"level":"error","message":"Something failed.. :printText is not a function"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"Something failed.. :printText is not defined"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"Something failed.. :jwt expired"}
+{"level":"error","message":"Something failed.. :jwt expired"}
+{"level":"error","message":"Something failed.. :jwt expired"}
+{"level":"error","message":"Something failed.. :jwt expired"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"Something failed.. :decode is not defined"}
+{"level":"error","message":"Something failed.. :firstName is not defined"}
+{"level":"error","message":"Something failed.. :firstName is not defined"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cannot read properties of undefined (reading 'question')"}
+{"level":"error","message":"Something failed.. :Cast to ObjectId failed for value \"Java New\" (type string) at path \"_id\" because of \"BSONTypeError\""}
+{"level":"error","message":"Something failed.. :Cast to ObjectId failed for value \"Java New\" (type string) at path \"_id\" because of \"BSONTypeError\""}
+{"level":"error","message":"Something failed.. :Cast to ObjectId failed for value \"Java\" (type string) at path \"_id\" because of \"BSONTypeError\""}
+{"level":"error","message":"Something failed.. :Cast to ObjectId failed for value \"Math\" (type string) at path \"_id\" because of \"BSONTypeError\""}
+{"level":"error","message":"Something failed.. :Cast to ObjectId failed for value \"cpp\" (type string) at path \"_id\" because of \"BSONTypeError\""}
+{"level":"error","message":"Something failed.. :paper validation failed: totalMarks: totalMarks is must be grater than or equal to 0"}
+{"level":"error","message":"Something failed.. :paper validation failed: totalMarks: totalMarks is must be grater than or equal to 0"}
+{"level":"error","message":"Something failed.. :paper validation failed: totalMarks: totalMarks is must be grater than or equal to 0"}
+{"level":"error","message":"Something failed.. :paper validation failed: totalMarks: totalMarks is must be grater than or equal to 0"}
+{"level":"error","message":"Something failed.. :paper validation failed: totalMarks: totalMarks is must be grater than or equal to 0"}
+{"level":"error","message":"Something failed.. :paper validation failed: totalMarks: totalMarks is must be grater than or equal to 0"}
+{"level":"error","message":"Something failed.. :paper validation failed: totalMarks: totalMarks is must be grater than or equal to 0"}
+{"level":"error","message":"Something failed.. :paper validation failed: totalMarks: totalMarks is must be grater than or equal to 0"}
+{"level":"error","message":"Something failed.. :paper validation failed: totalMarks: totalMarks is must be grater than or equal to 0"}
+{"level":"error","message":"Something failed.. :paper validation failed: totalMarks: totalMarks is must be grater than or equal to 0"}
+{"level":"error","message":"Something failed.. :paper validation failed: totalMarks: totalMarks is must be grater than or equal to 0"}
+{"level":"error","message":"we have got an unhandled promise rejection"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an unhandled promise rejection"}
+{"level":"error","message":"we have got an unhandled promise rejection"}
+{"level":"error","message":"we have got an unhandled promise rejection"}
+{"level":"error","message":"we have got an unhandled promise rejection"}
+{"level":"error","message":"we have got an unhandled promise rejection"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an unhandled promise rejection"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"Something failed.. :Cast to ObjectId failed for value \"Java\" (type string) at path \"_id\" because of \"BSONTypeError\""}
+{"level":"error","message":"Something failed.. :data and salt arguments required"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"Something failed.. :data and salt arguments required"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"we have got an uncaught exception"}
+{"level":"error","message":"Something failed.. :Cast to ObjectId failed for value \"Java\" (type string) at path \"_id\" because of \"BSONTypeError\""}
+{"level":"error","message":"Something failed.. :Cast to ObjectId failed for value \"Java \" (type string) at path \"_id\" because of \"BSONTypeError\""}
+{"level":"error","message":"Something failed.. :Cast to ObjectId failed for value \"javascript  67\" (type string) at path \"_id\" because of \"BSONTypeError\""}
+{"level":"error","message":"Something failed.. :retrun is not defined"}
+{"level":"error","message":"Something failed.. :Cast to ObjectId failed for value \"Java \" (type string) at path \"_id\" because of \"BSONTypeError\""}
+{"level":"error","message":"Something failed.. :Cast to ObjectId failed for value \"Java  576\" (type string) at path \"_id\" because of \"BSONTypeError\""}

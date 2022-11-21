@@ -92,12 +92,17 @@ const userSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       default: null,
     },
+    resetPasswordLink:{
+      type:String,
+      default:""
+    }
   },
   { timestamps: true }
 );
 
 
 const jwt = require('jsonwebtoken');
+const { string } = require("joi");
 require("dotenv").config();
 
 userSchema.methods.getAuthToken = function(){

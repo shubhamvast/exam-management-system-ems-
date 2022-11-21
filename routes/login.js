@@ -6,6 +6,8 @@ const { User, userSchema } = require("../Model/userModel");
 // const {sendMail} = require("../mail/sendEmail");
 
 router.post("/", async (req, res) => {
+
+ 
   const { error } = validateLoginDetails(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 

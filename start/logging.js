@@ -25,7 +25,7 @@ module.exports = function () {
 
   process.on("unhandledRejection", (err) => {
     winston.error("we have got an unhandled promise rejection");
-    console.log(err.message);
+    // console.log(err.message);
     setTimeout(() => {
       process.exit(1);
     }, 2000);
